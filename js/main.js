@@ -7,7 +7,7 @@ const describir = (palabra) =>{
                 vocales +=1
             }
         }
-        return `Tu palabra tiene un total de ${vocales} vocales`;
+        alert(`Tu palabra tiene un total de ${vocales} vocales :)`)
     }else {
         alert(`Ingresa una palabra no: '${palabra}' >:C`);
     }
