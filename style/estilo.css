@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Playfair Display', serif;
+  color: #EDEDED;
+  text-align: center;
+}
+
+body {
+  background-color: #444444;
+}
+
+.navbar__wraper {
+  background-color: #171717;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navbar__wraper .navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 0;
+}
+
+.navbar__wraper .navbar > * {
+  margin: auto;
+}
+
+.navbar__wraper .navbar .sections--left .sections {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navbar__wraper .navbar .sections--left .sections li a {
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  padding: 1rem;
+}
+
+.navbar__wraper .navbar .sections--left .sections li a:hover {
+  color: #DA0037;
+}
+
+.navbar__wraper .navbar .sections--left .sections li:not(:first-child) {
+  border-left: 1px solid rgba(81, 82, 81, 0.5);
+}
+
+.navbar__wraper .navbar .logo h1 a {
+  font-size: 3rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.navbar__wraper .navbar .sections--right .sections {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navbar__wraper .navbar .sections--right .sections li a {
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  padding: 1rem;
+}
+
+.navbar__wraper .navbar .sections--right .sections li a:hover {
+  color: #DA0037;
+}
+
+.navbar__wraper .navbar .sections--right .sections li:not(:first-child) {
+  border-left: 1px solid rgba(81, 82, 81, 0.5);
+}
+
+.frontpage__wraper {
+  background-image: url("../imgs/black-and-white-2558273.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.frontpage__wraper > * {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 45vw;
+}
+
+.frontpage__wraper > *:nth-child(2) {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.clothing__wraper .clothing__title {
+  font-style: italic;
+  background-color: #171717;
+  height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.clothing__wraper .single__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2.5rem auto;
+  padding: 1.25rem 0;
+  background-color: #536162;
+}
+/*# sourceMappingURL=estilo.css.map */

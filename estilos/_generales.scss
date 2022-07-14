@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Playfair Display', serif;
+    color: #EDEDED;
+    text-align: center;
+}
+body{
+    background-color: #444444;
+}
+.navbar__wraper{
+    background-color: #171717;
+    height: fit-content;
+    .navbar{
+        >*{
+            margin: auto;
+        }
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 0;
+        .sections--left{
+            .sections{
+                @include sections__navbar;
+            }
+        }
+        .logo{
+            h1{
+                a{
+                    font-size: 3rem;
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+            }
+        }
+        .sections--right{
+            .sections{
+                @include sections__navbar;
+            }
+        }
+    }
+}

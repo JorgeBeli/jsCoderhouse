@@ -1,0 +1,24 @@
+@mixin sections__navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    li{
+        a{
+            text-decoration: none;
+            font-size: 1rem;
+            transition: all .25s ease-in-out;
+            &:hover{
+                color: #DA0037;
+            }
+            padding: 1rem;
+        }
+        &:not(:first-child){
+            border-left: 1px solid rgba(81, 82, 81, 0.5);
+        }
+    }
+}
+@mixin fila {
+    display: flex;
+    flex-direction: row;
+}
